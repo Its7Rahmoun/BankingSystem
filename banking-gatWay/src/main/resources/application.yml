@@ -5,5 +5,6 @@ spring:
         - id: r1
           uri: http://localhost:8081/
           predicates:
-            - path=
+            - path=/auth/**
+            - path=/accounts/**
 
