@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id : r1
+          uri : http://localhost:8081/
+          predicates:
+            - Path=/auth/**
+
+  application:
+    name: gatewayService
+server:
+  port: 8080
+
+
+
+
+
+

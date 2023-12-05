@@ -1,10 +1,10 @@
-package ors.sid.bankinggatWay;
+package sid.org.gatWayService;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BankingGatWayApplicationTests {
+class GatWayServiceApplicationTests {
 
 	@Test
 	void contextLoads() {
