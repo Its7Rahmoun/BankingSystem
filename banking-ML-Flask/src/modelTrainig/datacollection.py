@@ -15,7 +15,7 @@ def generate_ai_username(length=8):
     return ''.join(random.choices(string.ascii_lowercase + string.digits, k=length))
 
 # Number of samples for each class
-num_samples = 1000
+num_samples = 10000
 
 # Generate human usernames
 human_usernames = [generate_human_username() for _ in range(num_samples)]
