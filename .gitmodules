@@ -1,3 +1,6 @@
 [submodule "transactionBakingSystem"]
 	path = transactionBakingSystem
 	url = https://github.com/Its7Rahmoun/transactionBakingSystem
+[submodule "bankSystemfrontEnd"]
+	path = bankSystemfrontEnd
+	url = https://github.com/Its7Rahmoun/bankSystemfrontEnd
