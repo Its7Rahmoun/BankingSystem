@@ -6,10 +6,16 @@ import pickle
 
 app = Flask(__name__)
 
-# Eureka server configuration
-eureka_client.init(eureka_server="http://localhost:8761/eureka",
-                   app_name="MLSERVICE",
-                   instance_port=5000)
+
+eureka_client.init(
+    eureka_server="http://localhost:8761/eureka",
+    app_name="MLSERVICE",
+    instance_port=5000,
+    # Additional Eureka configuration properties
+    instance_ip="127.0.0.1",
+    health_check_url="http://localhost:5000/health"
+
+)
 
 
 def predection(deta):
